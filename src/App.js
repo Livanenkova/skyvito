@@ -4,7 +4,10 @@ import { useState } from "react";
 import Error404 from "./components/Error404";
 import LoginPass from "./components/LoginPass";
 import Main from "./components/main/Main";
-// import MyArticle from "./components/MyArticle/MyArticle";
+import MyArticle from "./components/myArticle/MyArticle";
+import Article from "./components/article/Article";
+import Profile from "./components/profile/Profile";
+import SellerProfile from "./components/sellerProfile/SellerProfile";
 
 function App() {
   const [inputValue, setInputField] = useState({
@@ -23,7 +26,10 @@ function App() {
         }
       />
       <Route path="/main" element={<Main />} />
-      {/* <Route path="/my-article" element={<MyArticle />} /> */}
+      <Route path="/my-article" element={<MyArticle />} />
+      <Route path="/article" element={<Article />} />
+      <Route path="/profile" element={<Profile />} />
+      <Route path="/seller-profile" element={<SellerProfile />} />
       <Route path="/login-pass" element={<LoginPass />} />
 
     </Routes>
