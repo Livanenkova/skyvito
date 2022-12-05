@@ -1,6 +1,5 @@
 // import { Link} from 'react-router-dom'
 import './seller-profile.css'
-import logoMob from "../../img/logo-mob.png"
 
 export default function LoginPass() {
 
@@ -11,7 +10,7 @@ export default function LoginPass() {
                 <nav className="header__nav">
                     <div className="header__logo logo-mob">
                         <a className="logo-mob__link" href="" target="_blank">
-                            <img className="logo-mob__img" src={logoMob} alt="logo"/>
+                            <img className="logo-mob__img" src="img/logo-mob.png" alt="logo"/>
                         </a>
                     </div>
                     <button className="header__btn-putAd btn-hov01" id="btputAd">Разместить объявление</button>
@@ -25,7 +24,7 @@ export default function LoginPass() {
                     <div className="main__center-block">
                         <div className="main__menu menu">
                             <a className="menu__logo-link" href="" target="_blank">
-                                <img className="menu__logo-img" src="logo.png" alt="logo"/>
+                                <img className="menu__logo-img" src="img/logo.png" alt="logo"/>
                             </a>
                             <form className="menu__form" action="#">
                                 <button className="menu__btn btn-hov02" id="btnGoBack">Вернуться на&nbsp;главную</button>
